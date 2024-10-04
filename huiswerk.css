@@ -1,0 +1,108 @@
+body {
+    background-color: aquamarine;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* Index pagina */
+
+header {
+    background-color: rgb(176, 254, 123);
+    width: 900px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(249, 231, 195);
+    height: 26px;
+    width: 80px;
+}
+
+ul a {
+    color: rgb(45, 44, 44);
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+    margin: 20px;
+}
+
+li:hover {
+    background-color: rgba(253, 149, 64, 0.756);
+    border-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+}
+
+img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Formulier contact */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin: 15px 0;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px;
+}
+
+p {
+    background-color: rgb(210, 178, 250);
+    display: block;
+    width: 900px;
+    padding: 15px;
+    margin: 25px auto;
+}
+
+button {
+    display: block;
+    width: 400px;
+}
+button:active {
+    background-color: brown;
+    color: yellow;
+}
+/* CV tabel */
+
+table {
+    border-collapse: collapse;
+    width: 910px;
+    height: 80px;
+    margin: 30px auto;
+}
+tr {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 10px 5px;
+    border: 1px solid grey;
+    background-color: rgb(160, 200, 225);
+}
+
+footer {
+    font-size: 15px;
+    padding: 150px;
+    text-align: center;
+
+}
