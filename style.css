@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(224, 76, 76);
+    display: grid;
+}
+
+/* Fluid grid */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* 768px of kleiner */
+@media only screen and (max-width: 768px) {
+    .col-2 {
+        width: 450px;
+    }
+    .article {
+        width: 400px;
+    }
+    h1,
+    h3 {
+        text-align: center;
+    }
+}
+
+/* 768px of groter */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: burlywood;
+    }
+}
+
+header {
+    background-image: url("afbeeldingen/Deventer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+    align-items: flex-end;
+
+}
+
+.article {
+    padding: 15px;
+    background-color: lightcyan;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+    height: 80px;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+}
