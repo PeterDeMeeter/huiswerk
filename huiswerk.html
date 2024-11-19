@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script text="text/javascript">
+
+    // hier komt de jquery
+  </script>
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+
+      $("#rood").click(function () {
+        $("*").css("color", "red");
+        $("p").css("color", "red");
+        $("H1").css("color", "red");
+      });
+      $("#blauw").click(function () {
+        $("*").css("color", "blue");
+        $("p").css("color", "blue");
+        $("H1").css("color", "blue");
+      });
+      $("#rechts").click(function () {
+        $("*").css("text-align", "right");
+        $("p").css("text-align", "right");
+        $("h1").css("text-align", "right");
+      });
+      $("#links").click(function () {
+        $("*").css("text-align", "left");
+        $("p").css("text-align", "left");
+        $("h1").css("text-align", "left");
+      });
+      $("#centreer").click(function () {
+        $("*").css("text-align", "center");
+        $("h1").css("text-align", "center");
+        $("button").css("text-align", "center");
+
+      });
+
+    });
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>JQUERY Uitlijnen</title>
+</head>
+
+<body>
+  <h1>Huiswerk</h1>
+
+  <button id="rood">Klik voor rode tekst</button>
+  <button id="blauw">Klik voor blauwe tekst</button>
+  <button id="centreer">Klik om tekst te centreren</button>
+  <button id="links">Klik om tekst links uit te lijnen</button>
+  <button id="rechts">Klik om tekst rechts uit te lijnen</button>
+
+  <p>Lijn alles uit door op de knoppen te klikken</p>
+  <noscript>
+    Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te
+    activeren.
+  </noscript>
+
+  <footer></footer>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
